@@ -1,2 +1,2 @@
 # pythonstuff
-Python, PySpark
+python, pyspark
