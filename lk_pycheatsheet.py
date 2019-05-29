@@ -1,6 +1,11 @@
 import matplotlib.pyplot as plt
 %matplotlib inline
 
+type(a)
+b = 5.
+a = float(a)
+# int:32bit; float:64bit;
+
 list1.append(x)
 list1.extend(x)
 list1.remove(x)
@@ -51,3 +56,31 @@ df.groupby('var1')[['var2','var3']].agg({'var2':'mean','var3':sum})
 
 str.find(sub,start,end) #-1 if sub is not found
 print('abc' + 'def' + "{0:8.2%}".format(iv)) 
+
+#anaconda 
+conda list
+conda activate envx 
+conda deactivate
+conda create --name nameofenv python=3.7
+conda update conda                                
+conda info
+anaconda search pckgname
+conda config --show channels                               
+conda update pip
+conda config --show                                
+
+#confusion_mat (positive = event = bad; negative = non-event = good) 
+# tpr: proportion of actual bads (event) correctly classified as bads (event)
+tpr = tp/(tp+fn) = recall = sensitivity     
+# fpr: proportion of actual goods (non-event) wrongly classified as bads (event)
+fpr = fp/(fp+tn) = 1 - specificity
+#specifictiy: share of actual goods (non-event) among all observations classified as goods (non-event)
+specificity = tn/(fp+tn)                                 
+roc_cuve = plot(y=tpr, x=fpr) 
+                                
+                                
+                                
+                                
+                                
+                                
+                                
