@@ -58,16 +58,16 @@ str.find(sub,start,end) #-1 if sub is not found
 print('abc' + 'def' + "{0:8.2%}".format(iv)) 
 
 #anaconda 
-conda list
-conda activate envx 
-conda deactivate
-conda create --name nameofenv python=3.7
-conda update conda                                
-conda info
-anaconda search pckgname
-conda config --show channels                               
-conda update pip
-conda config --show                                
+# conda list
+# conda activate envx 
+# conda deactivate
+# conda create --name nameofenv python=3.7
+# conda update conda                                
+# conda info
+# anaconda search pckgname
+# conda config --show channels                               
+# conda update pip
+# conda config --show                                
 
 #confusion_mat (positive = event = bad; negative = non-event = good) 
 # tpr: proportion of actual bads (event) correctly classified as bads (event)
