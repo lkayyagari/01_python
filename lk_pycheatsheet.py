@@ -1,3 +1,6 @@
+import matplotlib.pyplot as plt
+%matplotlib inline
+
 list1.append(x)
 list1.extend(x)
 list1.remove(x)
